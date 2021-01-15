@@ -5,7 +5,7 @@
 
 ## New Private Housing Units Authorized by Building Permits (PERMIT) | FRED
 
-You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://console.aws.amazon.com/dataexchange/home#/products/prodview-rfcyyrbrm6muu](https://console.aws.amazon.com/dataexchange/home#/products/prodview-rfcyyrbrm6muu).
+You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-rfcyyrbrm6muu](https://aws.amazon.com/marketplace/pp/prodview-rfcyyrbrm6muu).
 
 ### Main Overview
 The dataset file included with this product is provided in CSV format. README files are also included to offer context on data fields used throughout the dataset files. The specific files included with each revisions may vary.
