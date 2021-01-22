@@ -3,9 +3,14 @@
 The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/fred-permit](https://github.com/rearc-data/fred-permit).
 
 ### Main Overview
-The dataset file included with this product is provided in CSV format. README files are also included to offer context on data fields used throughout the dataset files. The specific files included with each revisions may vary.
+The dataset file included with this product is provided in CSV format. The included dataset contains the following columns: 
+`DATE`, `PERMIT`
 
-This dataset contains a historical time-series data of U.S. Census Bureau and U.S. Department of Housing and Urban Development, New Private Housing Units Authorized by Building Permits (PERMIT) starting from `1960-01-01`. The unit of the data is Thousands of Units, and values are based on seasonally adjusted annual rate.
+This dataset contains a historical time-series data of U.S. Census Bureau and U.S. Department of Housing and Urban Development, New Private Housing Units Authorized by Building Permits (PERMIT) starting from `1960-01-01`. 
+ 
+The values within the data field labeled `PERMIT` represent the total number of new building permits for private housing units in the US in `Thausands of Units` at the time of the corresponding `DATE` field. Values are based on seasonally adjusted annual rate.
+
+Starting with the `2005-02-16` release, the series reflects an increase in the universe of permit-issuing places from 19,000 to 20,000 places.
 
 ### Data Source
 This dataset is provided by the [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/) Economic Data (FRED). 
